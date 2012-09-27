@@ -1,0 +1,175 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Lab 2 Validation</title>
+	</head>
+	<body>
+		<div id="content"> <!-- open content --> 
+			<header>
+				<h1>Lab-2 Checking for Errors</h1>
+			</header>
+
+			<section> 
+				<h2><a href="http://www.gmail.com" title="link to gmail.com">http://www.gmail.com</a></h2>
+				<p>The log in page is a simple page with some basic text information, sign up, log in and other details. This is the part where you sing into gmail.com</p>
+				<p>7 errors, 1 warning(s)</p>
+
+				<ol>
+					<li>Warning- Using experimental feature: HTML5 <em>Conformance Checker.</em>
+						<ul>
+							<li>This is a normal error because HTML5 is a new technology</li>
+						</ul>
+					</li>
+					<li>Bad value publisher for attribute rel on element link: keyword publisher is not registered
+						<ul>
+							<li> can probably fix this by adjusting the rel attribute</li>
+						</ul>
+					</li>
+					<li>ampersand did not start a character reference. (& probably should have been escaped as ampersand.)
+						<ul>
+							<li>have to use the escape command on the ampersand </li>
+						</ul>
+					</li>
+					<li>ampersand did not start a character reference. (& probably should have been escaped as ampersand.)
+						<ul>
+							<li>have to use the escape command on the ampersand</li>
+						</ul>
+					</li>
+					<li>ampersand did not start a character reference. (& probably should have been escaped as ampersand.)
+						<ul>
+							<li>have to use the escape command on the ampersand </li>
+						</ul>
+					</li>
+					<li>ampersand did not start a character reference. (& probably should have been escaped as ampersand;.)
+						<ul>
+							<li>have to use the escape command on the ampersand</li>
+						</ul>
+					</li>
+					<li>ampersand did not start a character reference. (& probably should have been escaped as ampersand.)
+						<ul>	
+							<li>have to use the escape command on the ampersand</li>
+						</ul>
+					</li>	
+					</ol>		
+
+					<h2><a href="http://www.google.com" title="link to google.com">http://www.google.com</a></h2>
+					<p>This is the Google main search bar page. I guess you could call it their home bar.</p>
+					<p> 2 errors, 4 warning(s)
+					<ol>
+						<li>Using experimental feature: HTML5 Conformance Checker.
+						</li>
+						<li>No Character encoding declared at document level
+							<ul>
+								<li>needed to include the !DOCTYPE and html</li>
+							</ul>
+						</li>
+						<li>Using windows-1252 instead of the declared encoding iso-8859-1.
+							<ul>
+								<li>should change to proper encoding declaration</li>
+							</ul>
+						</li>
+						<li>Element nobr not allowed as child of element div in this context. (Suppressing further errors from this subtree.)
+							<ul>
+								<li>need to fix the nobr element probably. </li>
+							</ul>
+						</li>
+						<li>ampersand did not start a character reference. (&amp; probably should have been escaped as Ampersand;.)
+							<ul>
+								<li>They probably need to input a character reference</li>
+							</ul>
+						</li>
+						<li>ampersand  did not start a character reference. (&amp; probably should have been escaped as ampersand;.)
+							<ul>
+						<li>needs to replace the ampersand with a the proper escape command.</li>
+							</ul>
+						</li>	
+					</ol>
+
+					<h2><a href="http://www.bestbuy.com" title="link tobest buy.com">http://www.bestbuy.com</a></h2>	
+					<p>This is the main Best Buy home screen. From this screen there are many features and options available for sale. The intent here is to promote bestbuy and sell. </p>
+					<p>177 errors, 285 warnings. For this assignment I will do the first few items.
+					<ol>
+						<li>Using experimental feature: HTML5 Conformance Checker
+							<ul>
+								<li>This is a normal error because HTML5 is a new technology</li>
+							</ul>
+						</li>
+						<li>No Character encoding declared at document level
+							<ul>
+								<li>needed to include character encoding</li>
+							</ul>
+						</li>
+						<li>Bad value text/html for attribute content on element meta: The legacy encoding declaration did not start with text/html;.
+							<ul>
+								<li>needed to include the meta tag with proper items.</li>
+							</ul>
+						</li>
+						<li>Bad value pragma for attribute http-equiv on element meta.
+							<ul>
+								<li>needed to include a bracket and close the element </li>
+							</ul>
+						</li>
+						<li>Bad value http://images.bestbuy.com:80/BestBuy_US/store/styles/global-min.css for attribute href on element link: Ports under 1024 should be accessed using the appropriate scheme name.
+							<ul>
+								<li>needed to include a bracket and close the element</li>
+							</ul>
+						</li>
+						<li>Bad value http://images.bestbuy.com:80/BestBuy_US/store/vendor/jquery/jquery-1.7.min.js for attribute src on element script: Ports under 1024 should be accessed using the appropriate scheme name.
+							<ul>
+								<li>needed to include a bracket and close the element</li>
+							</ul>
+						</li>
+						<li>Bad value http://images.bestbuy.com:80/BestBuy_US/store/js/global-min.js for attribute src on element script: Ports under 1024 should be accessed using the appropriate scheme name.
+							<ul>
+								<li>needed to include a bracket and close the element</li>
+							</ul>
+						</li>
+					</ol>		
+
+					<h2><a href="http://www.facebook.com" title="link to facebook.com">http://www.facebook.com</a></h2>
+					<p>this is the facebook main home page. Here the user is presented with a bunch of login, and sign up options. simple basic sign in page.  </p>
+					<p>42 errors, 0 warning(s) for this site I will be doing a few of the errors. 
+					<ol>
+						<li>element "noscript" undefined
+							<ul>
+								<li>element was invalid and needs to be renamed and closed with brackets</li>
+							</ul>
+						</li>
+						<li>value of attribute "id" invalid: "2" cannot start a name
+							<ul>
+								<li>need to replace id 2 with a valid id name.</li>
+							</ul>
+						</li>
+						<li>document type does not allow element "a" here; missing one of "h1", "h2", "h3", "h4", "h5", "h6", "p", "div", "pre", "address", "fieldset" start-tag
+							<ul>
+								<li>needed to use a proper element name not a.</li>
+							</ul>
+						</li>
+						<li>document type does not allow element "br" here; missing one of "h1", "h2", "h3", "h4", "h5", "h6", "p", "div", "pre", "address", "fieldset" start-tag
+							<ul>
+								<li>needed to include a proper element name not br. </li>
+							</ul>
+						</li>
+						<li>there is no attribute "autocomplete"
+							<ul>
+								<li>needed to include "  " and close off quotation marks. </li>
+							</ul>
+						</li>
+						<li>document type does not allow element "input" here; missing one of "h1", "h2", "h3", "h4", "h5", "h6", "p", "div", "address", "fieldset" start-tag
+							<ul>
+								<li>needed to use proper element name not input.</li>
+							</ul>
+						</li>
+						<li>document type does not allow element "input" here; missing one of "h1", "h2", "h3", "h4", "h5", "h6", "p", "div", "address", "fieldset" start-tag
+							<ul>
+								<li>needed to use proper element name not input.</li>
+							</ul>
+						</li>
+					</ol>
+
+			</section> <!-- close section --> 
+
+		</div> <!-- close wrapper --> 
+	</body>
+</html>
