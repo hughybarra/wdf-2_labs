@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+				<title>Lab5 WDF</title>
+				<meta charset="utf-8" />
+		</head>
+		<body>
+			<header><!-- open header --> 
+					<img src="images/fullsail_logo.png" alt="Logo of Fullsail" />
+					<h1>Lab 5</h1>
+			</header><!-- close header --> 
+			<section><!-- open content -->
+				<article><!-- close content -->
+					<h2>abbr</h2>
+					<p>The abbr lest you give a popup to abbreviated words when scrolled over with the mouse<abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr></p>
+					<h2>address</h2>
+					<p>This is the tag you would use when inputting an address.<address> 3040 Aloma Ave #L8<br/>
+					Winter Park, Florida<br/>
+					32792</address>
+					<h2>b</h2>
+					<p>This tag marks up your text to be Bold by default</p>
+					<b>Look at me i'm bold!!! Cheaaa!!</b>
+					<h2>i</h2>
+					<p>this tag marks up your text to be italic by defualt</p>
+					<i>Look at me!!! I'm slanted!! muahahahah</i>
+					xxxxxxxx<h2>code</h2>
+					<p>this tag lest you mark up text to look like code.</p>
+					<code>This is a document</code>
+					<h2>Del</h2>
+					<p>The del element represent a removal from the document. The del elements should not be cross implied paragraph boundaries</p>
+					<del datetime="2010-10-11T01:25-07:00">blue</del> 
+					<h2>INS</h2>
+					<p>The ins element represents an addition to the document.</p>
+					<ins datetime="2010-10-11T01:25-07:01">red</ins>
+					<h2>Details/ Summary</h2>
+					<p>the details element represents a disclosure widget from wich the user can obtain additional information or controls.</p>
+					<p>The summary element represents a summary, caption, or legend for the rest of the contents of the summary element's parent details, element, if any. </p>
+					<details> 
+							<summary>Fill Out This Form: </summary>
+							<p><input type="text" name=fn value="Hugo's House of Horros">
+							<p><label><input type=checkbox name=ext checked>Check... this out</label>
+					</details>
+					<h2>DFN</h2>
+					<p>The dfn element represents the defining instance of a term. The paragraph, description list group, or section that is the nearest ancestor of the dfn element must also contain the definitions for the term given by the dfn element. </p>
+					<p>So like check this out. there was this one dude that told me he owned the <dfn><abbr title=" World wide Web Consortium">W3C</abbr></dfn> and I was like yeah... ok bro, sure you are.</p>
+					<h2>Figure/ Figcaption</h2>
+					<p>Figure: the figure element represents some flow content, optionally with the caption, that is self-contained and is typically referenced as a single unit from the main flow of the document. </p>
+					<p>The fig caption element represents a caption or legend for the rest of the contents of the figcaption elements parent figure element, if any. </p>
+					<figure>
+							<img  src="images/tank.jpg"  alt="picture of a tank and helicopter">
+							<figcaption>The tank and a helicopter hanging out in the woods. Hey look its me in the Drivers seat.</figcaption>
+					</figure>
+					<h2>hr</h2>
+					<p>Hr represents a paragraph-level thematic break</p>
+					<p>Lorem Ipsum dolor set amet</p>
+					<hr />
+					<p>Lorem Ipsum dolor set amet</p>
+					<h2>KBD</h2>
+					<p>the KBD element represents user input (typically keyboard input, although it may also be used to represent other input, such as voice commands). When the KBD element is nested inside a samp element, it represents the input as it was echoed by the system. WHen the KBD element contains a samp element, it represents input based on system output, for example invoking a menu item</p>
+					<p>Mac Users: To take screenshot press <kbd><kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>3</kbd></kbd></p>
+					<h2>mark</h2>
+					<p>Represents a run of text in one document marked or highlighted because of its relevance in another context. When used in a quotation or other block of text referenced in a document, it indicates a highlight that was not present in the original document</p>
+					<p>In the next sentence the HTML5 will be highlighted. <mark>HTML5</mark> is #1 yes?!?! 
+					<h2>meter</h2>
+					<p>When the meter binding applies to a meter element, the element is expected to render as an "inline-block" box with a "height" of 1 em and a width of 5 em. a 'vertical align' of 0.2em and with its contents depicting a gauge </p>
+					<p>Your score is:<meter value="2" min="0" max="10">2 out of 10</meter><br />
+					<meter value="0.6">60%</meter></p>
+					<h2>pre</h2>
+					<p>the pre element represents a block of performed text, in which structure is represented by typographic conventions rather than by elements</p>
+					<p>there should have been a popup when you first loaded he page.</p><pre><script>alert("this is what the pre command does?");</script></pre>
+					<h2>samp</h2>
+					<p>The samp element represents (sample) output from a program or computing system</p>
+					<pre><samp>hughybarra.github.com/labs_etc...<kbd>git status</kbd></samp></pre>
+					<h2>small</h2>
+					<p>Represents side comments such as small print. It is not intended to be presentational. The small element should not be used for extended spans of text such as multiple paragraphs, lists, or sections of text. it is only intended for short runs of text</p>
+					<small> all rights reserved to the author of this document. </small>
+					<h2>sup</h2>
+					<p>The sup element represents a superscript</p>
+					<p>today is the 13<sup>th</sup> of August</p>
+					<h2>sub</h2>
+					<p>the sub element represents a subscript</p>
+					<p>H<sub>2</sub>0 is one of my favorite punk bands</p>
+					<h2>time</h2>
+					<p>Represents a precise date and/or time in the proleptic Gregorian calendar. The time element encodes modern dates and times in a 
+					machine-readable way.</p>
+					<time datetime="2007-08-29T13:58Z">
+					August 29th, 2007 at 13:58
+					</time>
+					<h2>var</h2>
+					<p>The var element represents a variable. This could be an actual variable in a mathematical expression or programming context, or it could just be a term used as a placeholder in prose. </p>		
+					<p><var>E</var> energy is equal to <var>m</var> mass multiplied by the <var>c</var> speed of light, square </p>
+				</article><!-- open content --> 
+			</section><!-- close content -->
+			<footer><!-- open footer -->
+			<img src="images/fullsail_logo.png" alt="Logo of Fullsail" />
+			</footer><!-- close footer -->
+		</body>
+</html>
