@@ -1,0 +1,29 @@
+body {
+		width: 960px;
+		font-family: "Helvetica Neue", Arial< Sans-Serif;
+		background-color: grey;
+		margin: 0 auto;
+}
+
+header {
+		width: 900px;
+		background-color: white;
+			
+}
+section {
+		width: 900px;
+		background-color: white;
+}
+
+table {
+		background-color: blue;
+}
+
+table th {
+		border: 1px;
+		background-color: green;
+}
+
+table tr {
+		background-color: yellow;
+}

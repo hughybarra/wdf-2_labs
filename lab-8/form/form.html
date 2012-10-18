@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html lang="en">
+		<head>
+				<title>lab6</title>
+				<meta charset="utf-8" />
+		</head>
+		<body>
+				<header>
+						<h1>Lab 6 Form</h1>
+						<p>Below is the best form ever created... Tribute!</p>
+						<p>Hey I just met you and this is crazy, but give me all your information
+						i'll call you maybe.</p>
+				</header>
+				<article>
+						<form>
+								<fieldset>
+										<legend>User Information</legend>
+										First Name: <input type="text" name="firstname" /><br />
+										Last   Name: <input type="text" name="lastname" /><br />
+										<input type="radio" name="sex" value="male" id="on" checked="checked"/><label for="on">Male</label>
+										<input type="radio" name="sex" value="female" id="off" /><label for="off">Female<br />
+										Email: <input type="text" name="email" /><br /><br />
+										Password: <input type="password" name="pwd" /><br />
+										Re-Enter Password: <input type="password" name="pwd" /><br />
+								</fieldset>
+								<fieldset>
+										<legend>Profile Information</legend>
+										<p>Select Which most pertain to you</p>
+										<input type="checkbox" name="vehicle" value="Bike" />I own a bike<br />
+										<input type="checkbox" name="vehicle" value="car" />I own a car<br />
+										<input type="checkbox" name="vehicle" value="motorcycle" />I own a motorcycle <br />
+										<input type="checkbox" name="vehicle" value="SUV" />I own a SUV<br />
+										<p>
+												<textarea name="comments" rows="5" cols="20">Tell us more about you.</textarea>
+										</p>
+										<p>
+												<select name="pets">
+														<option>Cat</option>
+														<option>Dog</option>
+														<option>Bird</option>
+														<option>Fish</option>
+												</select>
+										</p>
+										<input type="reset" value="Clear" />
+										<input type="submit" value="Submit" />
+						</fieldset>
+						</form>
+				</article>				
+		</body>
+</html>
